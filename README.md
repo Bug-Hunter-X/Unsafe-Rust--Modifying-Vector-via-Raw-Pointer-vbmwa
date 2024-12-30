@@ -1,0 +1,1 @@
+This repository showcases a common error in unsafe Rust code: directly manipulating a vector's internal data using a raw pointer.  The code attempts to change the first element of the vector, but this approach violates Rust's memory safety guarantees, leading to undefined behavior. The solution demonstrates a safe alternative using vector indexing.
